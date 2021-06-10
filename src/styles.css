@@ -1,0 +1,130 @@
+
+
+html,body {
+  background-color: #e5eaf5;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Lato";
+ 
+}
+#end
+{
+  height:100vh;
+  background-color: #e5eaf5;
+}
+.container{
+height: 100%;
+width: 100ch;
+align-content: center;
+}
+h1
+{
+    color:black;
+}
+.card{
+height: 20%;
+margin-top: 100px;
+margin-bottom: auto;
+width: 400px;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+.already
+{
+  font-family: "lato";
+}
+.card-header h1{
+    font-family: "lato";
+color:rgb(163, 159, 159);
+}
+.card-footer a
+{
+    color:rgb(8, 10, 3);
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+
+
+.links a{
+margin-left: 4px;
+}
+.signuplink
+{
+    color:rgb(16, 83, 83);
+}
+
+#homeCard
+{
+        height: 250px;
+        margin-left: auto; 
+    margin-right: 0;
+        width: 20%;
+        float:right
+       
+        
+}
+@media screen and (max-width: 1000px) {
+    #homeCard {
+      display: none;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
